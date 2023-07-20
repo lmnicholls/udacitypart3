@@ -3,8 +3,8 @@ stages:
 - stage: Build
   jobs:
   - job: Build
-    pool:
-      name: ubuntu-20.04
+    # pool:
+    #   name: ubuntu-20.04
     steps:
     - task: CmdLine@2
       displayName: Install Newman Runner
